@@ -8,7 +8,7 @@ from . import grad_estimator
 from . import augmentation, color, contrib, core, enhance, feature, io, losses, metrics, morphology, tracking, utils, x
 
 # NOTE: we are going to expose to top level very few things
-from kornia.constants import pi
+from kornia.constants import pi, SamplePadding
 from kornia.testing import xla_is_available
 from kornia.utils import eye_like, vec_like, create_meshgrid, image_to_tensor, tensor_to_image
 
